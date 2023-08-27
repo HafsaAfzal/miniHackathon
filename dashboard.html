@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+
+<body>
+    <div class="wholeDiv">
+        <div class="header">
+            <h3><a href="./index.html">
+                personal blooging App
+            </a></h3>
+            <h6>user Name</h6>
+            <h6>log out</h6>
+        </div>
+        <div class="DashboardHead">
+            <h1>Dashboard</h1>
+        </div>
+
+
+        <div class="parentDiv">
+            <div class="div1">
+                <input id="placeholder1" type="text" placeholder="placeholder">
+                <input id="placeholder2" type="text" placeholder="type anything">
+                <button type="submit" value="submit" id="button" onclick="publishBlog()">publish blog</button>
+            </div>
+        </div>
+        <h2 class="head1">My Blogs</h2>
+        <div id="blogContainer"></div>
+
+<!-- 
+        <div class="ParentDiv"> -->
+            <!-- <div class="div1"></div>
+            <div class="img">
+                    <img src="">
+                </div>  -->
+
+            <!-- <div class="title">
+                <h1 id="blogTitle"></h1>
+                <h6 id="uName"></h6>
+            </div>
+            <div id="blog">
+                
+            </div>
+            <!-- <div class="debtn">
+                <span class="delete">delete</span>
+                <span class="delete">edit</span>
+            </div> -->
+        <!-- </div>
+    </div> --> -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="./firebaseConfig.js"></script>
+    <script src="./publishBlog.js"></script>
+</body>
+
+</html>

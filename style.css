@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.bigDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1275px;
+    height: 40px;
+   padding:4px 8px 4px 8px ;
+    background-color:lightblue;
+    /* border: 2px solid black; */
+}
+.header h3{
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    font-size: large;
+}
+.header h6{
+    color: white;
+    margin-right: 40px;
+    font-size: medium;
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input_field{
+    width: 250px;
+    /* margin: 8px,0px;    */
+    margin-top: 8px;
+    margin-left: 24px;
+     border: none; 
+     border-bottom: 2px solid rgb(232, 230, 230);
+     padding: 12px; 
+     /* background-color: whitesmoke; */
+   }
+#button{
+    width: 150px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    /* padding: 4px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size:larger;
+    font-weight: bold;
+    background-color:lightblue;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 8px 4px rgba(212, 211, 211, 1);
+    
+}   
+.blog {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 232, 232);
+    /* display: flex; */
+
+}
+
+/* .wholeDiv{
+    /* background-color: rgb(246, 244, 244); */
+/* } */
+*/ .DashboardHead {
+    width: 1275px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+
+.DashboardHead h1 {
+    margin-left: 40px;
+}
+
+.head1 {
+    margin-left: 40px;
+}
+
+.parentDiv {
+    display: flex;
+    margin-left: 40px;
+}
+
+.ParentDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 700px;
+    height: 280px;
+    margin-left: 80px;
+    background-color: white;
+}
+
+.div1 {
+    width: 700px;
+    height: 280px;
+    margin-left: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#placeholder1 {
+    width: 400px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    margin-top: 8px;
+
+}
+
+#placeholder2 {
+    width: 400px;
+    height: 100px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.debtn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.delete {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: blue;
+}
+
+/* #blog{
+    width: 700px;
+    height: 280px;
+    margin-left: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+} */
+.blog {
+    width: 700px;
+    height: 280px;
+    margin-left: 80px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
