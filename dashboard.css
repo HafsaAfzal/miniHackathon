@@ -3,7 +3,7 @@ body {
     padding: 0px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(238, 232, 232);
+    /* background-color: rgb(238, 232, 232); */
     /* display: flex; */
 
 }
@@ -45,31 +45,49 @@ body {
     width: 700px;
     height: 280px;
     margin-left: 80px;
+    margin-top: 35px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(248, 247, 247,0.2);
 }
 
 #placeholder1 {
-    width: 400px;
+    width: 600px;
     height: 40px;
-    border: 1px solid lightgray;
+    border: 2px solid lightblue;
     border-radius: 5px;
     margin-bottom: 6px;
     margin-top: 8px;
-
+    padding-left: 4px;
+    
+}
+#placeholder1:focus{
+    outline-color: lightblue;
+    box-shadow: 3px 3px 8px rgb(126, 215, 244);
+}
+#placeholder2:focus{
+    outline-color: lightblue;
+    box-shadow: 3px 3px 8px lightblue;
 }
 
 #placeholder2 {
-    width: 400px;
+    width: 600px;
     height: 100px;
-    border: 1px solid lightgray;
+    border: 2px solid lightblue;
     border-radius: 5px;
     margin-bottom: 0px;
+    padding-left: 4px;
 }
-
+.head1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 80px;
+}
 .title {
     display: flex;
     flex-direction: column;
@@ -108,7 +126,30 @@ body {
     margin-left: 80px;
     background-color: white;
     border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
+}
+#blogBtn{
+    width: 150px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    /* padding: 4px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size:medium;
+    font-weight: bold;
+    background-color:lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 8px 4px rgba(212, 211, 211, 1);
+    
+}
+#logout{
+    border: none;
+    color: white;
+    background-color: lightblue;
 }
 

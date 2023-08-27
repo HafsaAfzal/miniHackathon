@@ -96,3 +96,15 @@ const getBlog = () => {
 
 // Fetch and display blogs when the page loads
 getBlog();
+function updateUserName(user) {
+    if (user) {
+        const userNameElement = document.getElementById('userName');
+        userNameElement.textContent = `Welcome, ${user.username}`;
+    } else {
+        const userNameElement = document.getElementById('userName');
+        userNameElement.textContent = '';
+    }
+}
+
+// Listen for authentication state changes
+firebase.auth().onAuthStateChanged(updateUserName);

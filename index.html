@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,33 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./dashboard.css">
 </head>
+
 <body>
     <div class="bigDiv">
-    <div class="header">
-        <h3><a href="./index.html">
-            personal blooging App
-        </a></h3>
-        <h6><a href="./signIn.html">sign in</a></h6>
+        <div class="header">
+            <h3><a href="./index.html">
+                    Personal Blooging App
+                </a></h3>
+            <h6><a href="./signup.html">Sign Up</a></h6>
+        </div>
+        <div class="signHeading">
+            <h1 class="signHeading">Good Morning Readers !</h1>
+        </div>
+        <div class="mainDiv">
+            <h2 class="head1">All Blogs</h2>
+            <div id="blogContainer">
+
+        </div>
+
+
+
     </div>
-    <div class="signHeading">
-        <h1>ALL Blogs</h1>
-        <!-- <button onclick="getBlog() ">get blogs</button> -->
-    </div>
-    <div id="blogContainer"></div>
-    
-       
-       
-    </div>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
-    <script src="./firebaseConfig.js"></script>
-    <!-- <script src="./sign.js"></script> -->
-    <script src="index.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+        <script src="./firebaseConfig.js"></script>
+        <!-- <script src="./sign.js"></script> -->
+        <script src="index.js"></script>
 </body>
+
 </html>

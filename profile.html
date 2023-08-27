@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+
+<body>
+    <div class="bigDiv">
+        <div class="header">
+            <h3><a href="./index.html">
+                    Personal Blooging App
+                </a></h3>
+            <button id="logout" type="button" onclick="logout()">log out</button>>
+        </div>
+        <div class="signHeading">
+            <h1 class="signHeading">Profile</h1>
+        </div>
+        <div class="oneDiv">
+            <div class="childDiv">
+                <div class="dpdiv">
+                    <label for="file">
+                        <img id="dpPic" src="" alt="click to upload image">
+                        <!-- <img id="camera" src="./images/image 32.png"> -->
+                    </label>
+
+                    <input id="file" type="file" name="image" accept="image/*">
+                </div>
+                <div class="nameDiv">
+                    <input type="text" placeholder="Enter Name">
+                    <img src="./images/Frame 1.png">
+                </div>
+                <div class="passwordDiv">
+                    <h2>Password</h2>
+                    <input id="oldPass" class="placeholderPass" type="text" placeholder="Old Password">
+                    <input class="placeholderPass" type="text" placeholder="New Password">
+                    <input class="placeholderPass" type="text" placeholder="Reset Password">
+                    <button id="blogBtn" type="submit" value="submit" id="button" onclick="updatePassword()">Update Password</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+        <script src="./firebaseConfig.js"></script>
+        <script src="./protected.js"></script>
+        <script src="./profile.js"></script>
+        </body>
+        </html>
+    
