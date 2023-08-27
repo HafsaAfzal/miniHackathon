@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="bigDiv">
-    <div class="header">
-        <h3><a href="./index.html">
-            personal blooging App
-        </a></h3>
-        <h6><a href="./signIn.html">log in</a></h6>
-    </div>
-    <div class="signHeading">
-        <h1>Sign Up</h1>
-    </div>
-    <div class="mainDiv">
-       
-        <div class="form">
-            <input class="input_field" type="text" id="username"  placeholder="Enter First Name">
-            <input class="input_field" type="text" id="userLastname"  placeholder="Enter Last Name">
-            <input class="input_field" type="email"  id="email" placeholder="Enter Email">
-            <input class="input_field" type="password" id="password"  placeholder="Enter password">
-            <input class="input_field"type="password" id=" repeatPassword"  placeholder="Enter repeat Password">
+        <div class="header">
+            <h3><a href="./index.html">
+                    Personal Blooging App
+                </a></h3>
+            <h6><a href="./signIn.html">log in</a></h6>
+        </div>
+        <div class="signHeading">
+            <h1 class="signHeading" >Sign Up</h1>
+        </div>
+        <div class="mainDiv">
+
+            <div class="form">
+                <input class="input_field" type="text" id="username" placeholder="Enter First Name">
+                <input class="input_field" type="text" id="userLastname" placeholder="Enter Last Name">
+                <input class="input_field" type="email" id="email" placeholder="Enter Email">
+                <input class="input_field" type="password" id="password" placeholder="Enter password">
+                <input class="input_field" type="password" id=" repeatPassword" placeholder="Enter repeat Password">
+                <button type="submit" value="submit" id="button" onclick="signup()">Sign Up</button>
+            </div>
             
         </div>
-        <button type="submit" value="submit" id="button" onclick="signup()">Sign Up</button>
     </div>
-   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
     <script src="./firebaseConfig.js"></script>
     <script src="./sign.js"></script>
-</body> 
+</body>
+
 </html>
