@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="bigDiv">
-    <div class="header">
-        <h3><a href="./index.html">
-            personal blooging App
-        </a></h3>
-        <h6><a href="./signup.html">sign up</a></h6>
-    </div>
-    <div class="signHeading">
-        <h1>Sign In</h1>
-    </div>
-    <div class="mainDiv">
-       
-        <div class="form">
-            
-            <input class="input_field" type="email"  id="email" placeholder="Enter Email">
-            <input class="input_field" type="password" id="password"  placeholder="Enter password">
-            
+        <div class="header">
+            <h3><a href="./index.html">
+                    Personal Blooging App
+                </a></h3>
+            <h6><a href="./signup.html">Sign Up</a></h6>
+        </div>
+        <div class="signHeading">
+            <h1 class="signHeading" >Sign In</h1>
+        </div>
+        <div class="mainDiv">
+
+            <div class="form">
+                
+                <input class="input_field" type="email" id="email" placeholder="Enter Email">
+                <input class="input_field" type="password" id="password" placeholder="Enter password">
+              
+                <button type="submit" value="submit" id="button" onclick="signup()">Sign Up</button>
+            </div>
             
         </div>
-        <button type="submit" value="submit" id="button" onclick="signin()">Sign In</button>
     </div>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
@@ -34,4 +37,5 @@
     <script src="./firebaseConfig.js"></script>
     <script src="./sign.js"></script>
 </body>
+
 </html>
